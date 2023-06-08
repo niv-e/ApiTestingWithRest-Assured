@@ -1,0 +1,25 @@
+{
+	"headers" :
+	[
+		{
+			"name" :"Content-Type",
+			"value": "application/json"		
+ 		},
+ 		{
+			"name" : "Accept",
+			"value": "application/json"
+ 		}
+ 	],
+ 	"bookingRequestBody" :
+ 	{
+	    "firstname": "Sally",
+	    "lastname": "Brown",
+	    "totalprice": 2000,
+	    "depositpaid": true,
+	    "bookingdates": {
+	        "checkin": "2016-02-23",
+	        "checkout": "2015-10-23"
+	    },
+	    "additionalneeds": "Breakfast"
+	}	
+}
